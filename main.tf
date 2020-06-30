@@ -259,4 +259,5 @@ resource "aws_lb_target_group" "http" {
   tags = {
     Project = var.project_tag
   }
+  
 }
